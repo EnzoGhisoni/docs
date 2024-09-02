@@ -155,7 +155,7 @@ A video walk-through of this tutorial is available from our YouTube channel: [Ga
 Take a step further and try out demos from [`ros_gz_sim_demos`](https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos).
 
 For the `sdf_parser` demo, install [`ros_gz`](https://github.com/gazebosim/ros_gz/tree/ros2) and the parser plugin `sdformat_urdf` from source in a colcon workspace.
-Read more about `sdformat_urdf` [here](https://github.com/ros/sdformat_urdf/blob/ros2/sdformat_urdf/README.md).
+Read more about `sdformat_urdf` [here](https://github.com/ros/sdformat_urdf/blob/rolling/README.md).
 
 Run the demo launch file with the rviz launch argument set:
 
@@ -176,4 +176,4 @@ And verify the vehicle matching its trajectory in Gazebo and RViz.
 
 ![gz_rviz](tutorials/ros2_integration/gz_rviz.gif)
 
-For more details on implementation of this demo see [ROS 2 Interoperability](ros2_interop).
+For more details on implementation of this demo see [ROS 2 Interoperability](https://github.com/gazebosim/docs/blob/master/ionic/ros2_interop.md).
